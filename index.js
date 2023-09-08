@@ -59,12 +59,12 @@ const displayQuiz = (data) => {
   }
   console.log(data)
   data.forEach((quiz, i) => {
-    console.log(quiz.options)
-    console.log(i)
-    quizContainer.innerHTML = `<div class="m-3 py-3 px-4 shadow-sm rounded">
+    // console.log(quiz)
+    // console.log(i + 1)
+    quizContainer.innerHTML += `<div class="m-3 py-3 px-4 shadow-sm rounded">
   <div class="flex items-center">
     <div class="h-8 w-8 bg-green-300 rounded-full flex justify-center items-center text-green-800 mr-3">
-      ${i + 1}
+     ${i + 1}
     </div>
     <p class="text-gray-800 text-sm">${quiz.question}</p>
   </div>
