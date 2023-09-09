@@ -57,7 +57,7 @@ const displayQuiz = (data) => {
     quizContainer.innerHTML = "";
     return;
   }
-  console.log(data)
+
   data.forEach((quiz, i) => {
     // console.log(quiz)
     // console.log(i + 1)
